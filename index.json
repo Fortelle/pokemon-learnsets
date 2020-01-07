@@ -1,0 +1,122 @@
+{
+    "redgreen" : [
+        "redgreen.levelup",
+        "redgreen.tm"
+    ],
+
+    "yellow" : [
+        "yellow.levelup",
+        "yellow.tm"
+    ],
+
+    "goldsilver" : [
+        "goldsilver.levelup",
+        "goldsilver.tm",
+        "goldsilver.egg"
+    ],
+    "crystal" : [
+        "crystal.levelup",
+        "crystal.tm",
+        "crystal.tutor",
+        "crystal.egg"
+    ],
+
+    "rubysapphire" : [
+        "rubysapphire.levelup",
+        "rubysapphire.tm",
+        "rubysapphire.egg"
+    ],
+    "fireredleafgreen" : [
+        "fireredleafgreen.levelup",
+        "rubysapphire.tm",
+        "fireredleafgreen.egg"
+    ],
+    "emerald" : [
+        "rubysapphire.levelup",
+        "rubysapphire.tm",
+        "rubysapphire.egg",
+        "emerald.tutor",
+        "emerald.special"
+    ],
+
+    "diamondpearl" : [
+        "diamondpearl.levelup",
+        "diamondpearl.tm",
+        "diamondpearl.tutor",
+        "diamondpearl.egg",
+        "diamondpearl.special"
+    ],
+    "platinum" : [
+        "platinum.levelup",
+        "diamondpearl.tm",
+        "platinum.tutor",
+        "diamondpearl.egg",
+        "platinum.special"
+    ],
+    "heartgoldsoulsilver" : [
+        "heartgoldsoulsilver.levelup",
+        "heartgoldsoulsilver.tm",
+        "heartgoldsoulsilver.tutor",
+        "heartgoldsoulsilver.egg",
+        "heartgoldsoulsilver.special"
+    ],
+
+    "blackwhite" : [
+        "blackwhite.levelup",
+        "blackwhite.tm",
+        "blackwhite.tutor",
+        "blackwhite.egg",
+        "blackwhite.special"
+    ],
+    "black2white2" : [
+        "black2white2.levelup",
+        "black2white2.tm",
+        "black2white2.tutor",
+        "blackwhite.egg",
+        "black2white2.special"
+    ],
+
+    "xy" : [
+        "xy.levelup",
+        "xy.tm",
+        "xy.tutor",
+        "xy.egg",
+        "xy.special"
+    ],
+    "omegarubyalphasapphire" : [
+        "omegarubyalphasapphire.levelup",
+        "omegarubyalphasapphire.tm",
+        "omegarubyalphasapphire.tutor",
+        "omegarubyalphasapphire.egg",
+        "omegarubyalphasapphire.special"
+    ],
+
+    "sunmoon" : [
+        "sunmoon.levelup",
+        "sunmoon.tm",
+        "sunmoon.tutor",
+        "sunmoon.egg",
+        "sunmoon.special"
+    ],
+    "ultrasunultramoon" : [
+        "ultrasunultramoon.levelup",
+        "ultrasunultramoon.tm",
+        "ultrasunultramoon.tutor",
+        "ultrasunultramoon.egg",
+        "ultrasunultramoon.special"
+    ],
+
+    "letsgopikachueevee" : [
+        "letsgopikachueevee.levelup",
+        "letsgopikachueevee.tm"
+    ],
+    "swordshield" : [
+        "swordshield.levelup",
+        "swordshield.tm",
+        "swordshield.tr",
+        "swordshield.tutor",
+        "swordshield.egg",
+        "swordshield.special"
+    ]
+
+}
