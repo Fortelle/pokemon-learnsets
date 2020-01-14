@@ -1,0 +1,19 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Zip raw
+      uses: TheDoctor0/zip-release@v0.2.1
+      with:
+        path: raw/
+    - name: Zip dest
+      uses: TheDoctor0/zip-release@v0.2.1
+      with:
+        path: dest/
