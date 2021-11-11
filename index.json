@@ -117,6 +117,13 @@
         "swordshield.tutor",
         "swordshield.egg",
         "swordshield.special"
-    ]
+    ],
 
+    "brilliantdiamondshiningpearl" : [
+        "brilliantdiamondshiningpearl.levelup",
+        "brilliantdiamondshiningpearl.tm",
+        "brilliantdiamondshiningpearl.tutor",
+        "brilliantdiamondshiningpearl.egg",
+        "brilliantdiamondshiningpearl.special"
+    ]
 }
