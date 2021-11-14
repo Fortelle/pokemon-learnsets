@@ -111,11 +111,12 @@
         "letsgopikachueevee.tm"
     ],
     "swordshield" : [
-        "swordshield.levelup",
-        "swordshield.tm",
-        "swordshield.tr",
-        "swordshield.tutor",
-        "swordshield.egg",
+        "swordshield_1.3.levelup",
+        "swordshield_1.3.tm",
+        "swordshield_1.3.tr",
+        "swordshield_1.3.tutor",
+        "swordshield_1.3.tutor2",
+        "swordshield_1.3.egg",
         "swordshield.special"
     ],
 
