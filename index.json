@@ -29,14 +29,21 @@
         "rubysapphire.egg"
     ],
     "fireredleafgreen" : [
-        "fireredleafgreen.levelup",
-        "rubysapphire.tm",
-        "rubysapphire.egg"
+        "firered.levelup",
+        "firered.tm",
+        "firered.egg",
+        "firered.tutor",
+        "firered.tutor_ult",
+        "leafgreen.levelup",
+        "leafgreen.tm",
+        "leafgreen.egg",
+        "leafgreen.tutor",
+        "leafgreen.tutor_ult"
     ],
     "emerald" : [
-        "rubysapphire.levelup",
-        "rubysapphire.tm",
-        "rubysapphire.egg",
+        "emerald.levelup",
+        "emerald.tm",
+        "emerald.egg",
         "emerald.tutor",
         "emerald.special"
     ],
