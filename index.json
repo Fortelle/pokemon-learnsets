@@ -58,10 +58,10 @@
     ],
     "platinum" : [
         "platinum.levelup",
-        "diamondpearl.tm",
+        "platinum.tm",
         "platinum.tutor",
         "platinum.tutor_ult",
-        "diamondpearl.egg",
+        "platinum.egg",
         "platinum.special"
     ],
     "heartgoldsoulsilver" : [
@@ -76,7 +76,7 @@
     "blackwhite" : [
         "blackwhite.levelup",
         "blackwhite.tm",
-        "blackwhite.tutor",
+        "blackwhite.tutor_ult",
         "blackwhite.egg",
         "blackwhite.special"
     ],
@@ -84,7 +84,8 @@
         "black2white2.levelup",
         "black2white2.tm",
         "black2white2.tutor",
-        "blackwhite.egg",
+        "black2white2.tutor_ult",
+        "black2white2.egg",
         "black2white2.special"
     ],
 
