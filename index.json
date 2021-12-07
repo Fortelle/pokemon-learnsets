@@ -108,15 +108,18 @@
     "sunmoon" : [
         "sunmoon.levelup",
         "sunmoon.tm",
-        "sunmoon.tutor",
+        "sunmoon.tutor_ult",
         "sunmoon.egg",
+        "sunmoon.zmove",
         "sunmoon.special"
     ],
     "ultrasunultramoon" : [
         "ultrasunultramoon.levelup",
         "ultrasunultramoon.tm",
         "ultrasunultramoon.tutor",
+        "ultrasunultramoon.tutor_ult",
         "ultrasunultramoon.egg",
+        "ultrasunultramoon.zmove",
         "ultrasunultramoon.special"
     ],
 
