@@ -47,6 +47,15 @@
         "emerald.tutor",
         "emerald.special"
     ],
+    "galeofdarkness" : [
+        "galeofdarkness.levelup",
+        "galeofdarkness.tm",
+        "galeofdarkness.egg",
+        "galeofdarkness.tutor",
+        "galeofdarkness.purification",
+        "galeofdarkness.mew_1",
+        "galeofdarkness.mew_2"
+    ],
 
     "diamondpearl" : [
         "diamondpearl.levelup",
