@@ -152,5 +152,10 @@
         "brilliantdiamondshiningpearl.tutor",
         "brilliantdiamondshiningpearl.egg",
         "brilliantdiamondshiningpearl.special"
+    ],
+
+    "legendarceus" : [
+        "legendarceus.levelup",
+        "legendarceus.tutor"
     ]
 }
