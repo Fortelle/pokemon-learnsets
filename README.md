@@ -28,4 +28,4 @@ A collection of Pokemon leansets from all of the core series games.
 | `swordshield_1.2` | Pokemon Sword *(Version 1.2.1) (The Isle of Armor)* | 2020.6.17
 | `swordshield_1.3` | Pokemon Sword *(Version 1.3.2) (The Crown Tundra)* | 2020.10.23
 | `brilliantdiamondshiningpearl` | Pokemon Brilliant Diamond | 2021.11.19
-| `legendarcues` | Pokemon Legends: Arceus | 2022.1.28
+| `legendarceus` | Pokemon Legends: Arceus | 2022.1.28
