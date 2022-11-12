@@ -157,5 +157,12 @@
     "legendsarceus" : [
         "legendsarceus.levelup",
         "legendsarceus.tutor"
+    ],
+
+    "scarletviole" : [
+        "scarletviole_1.0.1.levelup",
+        "scarletviole_1.0.1.tm",
+        "scarletviole_1.0.1.tutor",
+        "scarletviole_1.0.1.egg"
     ]
 }
