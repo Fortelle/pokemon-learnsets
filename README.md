@@ -31,3 +31,4 @@ A collection of Pokemon leansets from all of the core series games.
 | `legendsarceus` | Pokemon Legends: Arceus | 2022.1.28
 | `scarletviolet_1.0.0` | Pokemon Scarlet *(Version 1.0.0) (Preload)* | 2022.11.18
 | `scarletviolet_1.0.1` | Pokemon Scarlet *(Version 1.0.1)* | 2022.11.18
+| `scarletviolet_1.2.0` | Pokemon Scarlet *(Version 1.2.0)* | 2023.2.28
