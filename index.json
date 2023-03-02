@@ -1,168 +1,168 @@
 {
     "redgreen" : [
-        "redgreen.basic",
-        "redgreen.levelup",
-        "redgreen.tm"
+        "redgreen/basic",
+        "redgreen/levelup",
+        "redgreen/tm"
     ],
 
     "yellow" : [
-        "yellow.basic",
-        "yellow.levelup",
-        "yellow.tm"
+        "yellow/basic",
+        "yellow/levelup",
+        "yellow/tm"
     ],
 
     "goldsilver" : [
-        "goldsilver.levelup",
-        "goldsilver.tm",
-        "goldsilver.egg"
+        "goldsilver/levelup",
+        "goldsilver/tm",
+        "goldsilver/egg"
     ],
     "crystal" : [
-        "crystal.levelup",
-        "crystal.tm",
-        "crystal.tutor",
-        "crystal.egg"
+        "crystal/levelup",
+        "crystal/tm",
+        "crystal/tutor",
+        "crystal/egg"
     ],
 
     "rubysapphire" : [
-        "rubysapphire.levelup",
-        "rubysapphire.tm",
-        "rubysapphire.egg"
+        "rubysapphire/levelup",
+        "rubysapphire/tm",
+        "rubysapphire/egg"
     ],
     "fireredleafgreen" : [
-        "firered.levelup",
-        "firered.tm",
-        "firered.egg",
-        "firered.tutor",
-        "firered.tutor_ult",
-        "leafgreen.levelup",
-        "leafgreen.tm",
-        "leafgreen.egg",
-        "leafgreen.tutor",
-        "leafgreen.tutor_ult"
+        "firered/levelup",
+        "firered/tm",
+        "firered/egg",
+        "firered/tutor",
+        "firered/tutor_ult",
+        "leafgreen/levelup",
+        "leafgreen/tm",
+        "leafgreen/egg",
+        "leafgreen/tutor",
+        "leafgreen/tutor_ult"
     ],
     "emerald" : [
-        "emerald.levelup",
-        "emerald.tm",
-        "emerald.egg",
-        "emerald.tutor",
-        "emerald.special"
+        "emerald/levelup",
+        "emerald/tm",
+        "emerald/egg",
+        "emerald/tutor",
+        "emerald/special"
     ],
     "galeofdarkness" : [
-        "galeofdarkness.levelup",
-        "galeofdarkness.tm",
-        "galeofdarkness.egg",
-        "galeofdarkness.tutor",
-        "galeofdarkness.purification",
-        "galeofdarkness.mew_1",
-        "galeofdarkness.mew_2"
+        "galeofdarkness/levelup",
+        "galeofdarkness/tm",
+        "galeofdarkness/egg",
+        "galeofdarkness/tutor",
+        "galeofdarkness/purification",
+        "galeofdarkness/mew_1",
+        "galeofdarkness/mew_2"
     ],
 
     "diamondpearl" : [
-        "diamondpearl.levelup",
-        "diamondpearl.tm",
-        "diamondpearl.tutor",
-        "diamondpearl.tutor_ult",
-        "diamondpearl.egg",
-        "diamondpearl.special"
+        "diamondpearl/levelup",
+        "diamondpearl/tm",
+        "diamondpearl/tutor",
+        "diamondpearl/tutor_ult",
+        "diamondpearl/egg",
+        "diamondpearl/special"
     ],
     "platinum" : [
-        "platinum.levelup",
-        "platinum.tm",
-        "platinum.tutor",
-        "platinum.tutor_ult",
-        "platinum.egg",
-        "platinum.special"
+        "platinum/levelup",
+        "platinum/tm",
+        "platinum/tutor",
+        "platinum/tutor_ult",
+        "platinum/egg",
+        "platinum/special"
     ],
     "heartgoldsoulsilver" : [
-        "heartgoldsoulsilver.levelup",
-        "heartgoldsoulsilver.tm",
-        "heartgoldsoulsilver.tutor",
-        "heartgoldsoulsilver.tutor_ult",
-        "heartgoldsoulsilver.egg",
-        "heartgoldsoulsilver.special"
+        "heartgoldsoulsilver/levelup",
+        "heartgoldsoulsilver/tm",
+        "heartgoldsoulsilver/tutor",
+        "heartgoldsoulsilver/tutor_ult",
+        "heartgoldsoulsilver/egg",
+        "heartgoldsoulsilver/special"
     ],
 
     "blackwhite" : [
-        "blackwhite.levelup",
-        "blackwhite.tm",
-        "blackwhite.tutor_ult",
-        "blackwhite.egg",
-        "blackwhite.special"
+        "blackwhite/levelup",
+        "blackwhite/tm",
+        "blackwhite/tutor_ult",
+        "blackwhite/egg",
+        "blackwhite/special"
     ],
     "black2white2" : [
-        "black2white2.levelup",
-        "black2white2.tm",
-        "black2white2.tutor",
-        "black2white2.tutor_ult",
-        "black2white2.egg",
-        "black2white2.special"
+        "black2white2/levelup",
+        "black2white2/tm",
+        "black2white2/tutor",
+        "black2white2/tutor_ult",
+        "black2white2/egg",
+        "black2white2/special"
     ],
 
     "xy" : [
-        "xy.levelup",
-        "xy.tm",
-        "xy.tutor_ult",
-        "xy.egg",
-        "xy.special"
+        "xy/levelup",
+        "xy/tm",
+        "xy/tutor_ult",
+        "xy/egg",
+        "xy/special"
     ],
     "omegarubyalphasapphire" : [
-        "omegarubyalphasapphire.levelup",
-        "omegarubyalphasapphire.tm",
-        "omegarubyalphasapphire.tutor",
-        "omegarubyalphasapphire.tutor_ult",
-        "omegarubyalphasapphire.egg",
-        "omegarubyalphasapphire.special"
+        "omegarubyalphasapphire/levelup",
+        "omegarubyalphasapphire/tm",
+        "omegarubyalphasapphire/tutor",
+        "omegarubyalphasapphire/tutor_ult",
+        "omegarubyalphasapphire/egg",
+        "omegarubyalphasapphire/special"
     ],
 
     "sunmoon" : [
-        "sunmoon.levelup",
-        "sunmoon.tm",
-        "sunmoon.tutor_ult",
-        "sunmoon.egg",
-        "sunmoon.zmove",
-        "sunmoon.special"
+        "sunmoon/levelup",
+        "sunmoon/tm",
+        "sunmoon/tutor_ult",
+        "sunmoon/egg",
+        "sunmoon/zmove",
+        "sunmoon/special"
     ],
     "ultrasunultramoon" : [
-        "ultrasunultramoon.levelup",
-        "ultrasunultramoon.tm",
-        "ultrasunultramoon.tutor",
-        "ultrasunultramoon.tutor_ult",
-        "ultrasunultramoon.egg",
-        "ultrasunultramoon.zmove",
-        "ultrasunultramoon.special"
+        "ultrasunultramoon/levelup",
+        "ultrasunultramoon/tm",
+        "ultrasunultramoon/tutor",
+        "ultrasunultramoon/tutor_ult",
+        "ultrasunultramoon/egg",
+        "ultrasunultramoon/zmove",
+        "ultrasunultramoon/special"
     ],
 
     "letsgopikachueevee" : [
-        "letsgopikachueevee.levelup",
-        "letsgopikachueevee.tm"
+        "letsgopikachueevee/levelup",
+        "letsgopikachueevee/tm"
     ],
     "swordshield" : [
-        "swordshield_1.3.levelup",
-        "swordshield_1.3.tm",
-        "swordshield_1.3.tr",
-        "swordshield_1.3.tutor",
-        "swordshield_1.3.tutor2",
-        "swordshield_1.3.egg",
-        "swordshield_1.3.special"
+        "swordshield@1.3.0/levelup",
+        "swordshield@1.3.0/tm",
+        "swordshield@1.3.0/tr",
+        "swordshield@1.3.0/tutor_ult",
+        "swordshield@1.3.0/tutor",
+        "swordshield@1.3.0/egg",
+        "swordshield@1.3.0/special"
     ],
 
     "brilliantdiamondshiningpearl" : [
-        "brilliantdiamondshiningpearl.levelup",
-        "brilliantdiamondshiningpearl.tm",
-        "brilliantdiamondshiningpearl.tutor",
-        "brilliantdiamondshiningpearl.egg",
-        "brilliantdiamondshiningpearl.special"
+        "brilliantdiamondshiningpearl/levelup",
+        "brilliantdiamondshiningpearl/tm",
+        "brilliantdiamondshiningpearl/tutor",
+        "brilliantdiamondshiningpearl/egg",
+        "brilliantdiamondshiningpearl/special"
     ],
 
     "legendsarceus" : [
-        "legendsarceus.levelup",
-        "legendsarceus.tutor"
+        "legendsarceus/levelup",
+        "legendsarceus/tutor"
     ],
 
     "scarletviolet" : [
-        "scarletviolet_1.2.0.levelup",
-        "scarletviolet_1.2.0.reminder",
-        "scarletviolet_1.2.0.tm",
-        "scarletviolet_1.2.0.egg"
+        "scarletviolet@1.2.0/levelup",
+        "scarletviolet@1.2.0/reminder",
+        "scarletviolet@1.2.0/tm",
+        "scarletviolet@1.2.0/egg"
     ]
 }
