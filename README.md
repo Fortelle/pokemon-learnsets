@@ -32,3 +32,4 @@ A collection of Pokemon learnsets from all of the core series games.
 | `scarletviolet@1.0.0` | Pokemon Scarlet *(Version 1.0.0) (Preload)* | 2022.11.18
 | `scarletviolet@1.0.1` | Pokemon Scarlet *(Version 1.0.1) (Day one patch)* | 2022.11.18
 | `scarletviolet@1.2.0` | Pokemon Scarlet *(Version 1.2.0) (Walking Wake, Iron Leaves)* | 2023.2.28
+| `scarletviolet@2.0.1` | Pokemon Scarlet *(Version 2.0.1) (The Teal Mask)* | 2023.9.13
