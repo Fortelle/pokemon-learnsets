@@ -60,7 +60,6 @@
     "diamondpearl" : [
         "diamondpearl/levelup",
         "diamondpearl/tm",
-        "diamondpearl/tutor",
         "diamondpearl/tutor_ult",
         "diamondpearl/egg",
         "diamondpearl/special"
