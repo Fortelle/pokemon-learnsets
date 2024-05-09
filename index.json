@@ -161,10 +161,10 @@
     ],
 
     "scarletviolet" : [
-        "scarletviolet@2.0.1/levelup",
-        "scarletviolet@2.0.1/reminder",
-        "scarletviolet@2.0.1/tm",
-        "scarletviolet@2.0.1/egg",
-        "scarletviolet@2.0.1/special"
+        "scarletviolet@3.0.0/levelup",
+        "scarletviolet@3.0.0/reminder",
+        "scarletviolet@3.0.0/tm",
+        "scarletviolet@3.0.0/egg",
+        "scarletviolet@3.0.0/special"
     ]
 }
