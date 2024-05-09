@@ -7,13 +7,11 @@ import time
 
 ################
 
-startup_folder = os.path.dirname(__file__)
-root_path = os.path.dirname(startup_folder)
-index_filepath = os.path.join(root_path, 'index.json')
-evolution_filepath = os.path.join(root_path, 'evolutions.json')
-form_filepath = os.path.join(root_path, 'formchanges.json')
-raw_folder = os.path.join(root_path, 'raw')
-dest_folder = os.path.join(root_path, 'dist')
+index_filepath = './index.json'
+evolution_filepath = './evolutions.json'
+form_filepath = './formchanges.json'
+raw_folder = './raw'
+dest_folder = './dist'
 
 ################
 
@@ -225,7 +223,10 @@ for game_key, filenames in index_data.items():
 
   end_time = time.time()
   elapsed_time = end_time - start_time
-  print(f'Generated "{game_key}.json" in {elapsed_time * 1000:.0f}ms.')
+  print(f'Generated "{dist_filepath}" in {elapsed_time * 1000:.0f}ms.')
+  for file_key in filenames:
+    filepath = os.path.join(raw_folder, file_key + '.txt')
+    print(f' {filepath}')
 
 print(f'Input methods: {input_method_keys}.')
 print(f'Output methods: {output_method_keys}.')
