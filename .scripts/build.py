@@ -223,10 +223,11 @@ for game_key, filenames in index_data.items():
 
   end_time = time.time()
   elapsed_time = end_time - start_time
-  print(f'Generated "{dist_filepath}" in {elapsed_time * 1000:.0f}ms.')
+  print(f'::group::Generated "{dist_filepath}" in {elapsed_time * 1000:.0f}ms.')
   for file_key in filenames:
     filepath = os.path.join(raw_folder, file_key + '.txt')
     print(f' {filepath}')
+  print('::endgroup::')
 
 print(f'Input methods: {input_method_keys}.')
 print(f'Output methods: {output_method_keys}.')

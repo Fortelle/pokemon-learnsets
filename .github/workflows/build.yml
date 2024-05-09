@@ -37,7 +37,7 @@ jobs:
           python .scripts/build.py
       - name: Commit
         run: |
-          if ! git diff --exit-code --quiet;
+          if git diff --exit-code --quiet;
           then
             echo "Nothing to commit."
             exit 0
