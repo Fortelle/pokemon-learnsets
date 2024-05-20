@@ -222,6 +222,10 @@ for game_key, filenames in index_data.items():
   merged_learnset_collection = apply_pre_evolutions(merged_learnset_collection)
   merged_learnset_collection = apply_form_changes(merged_learnset_collection)
   
+  if game_key == "fireredleafgreen": # ugly hack, merge fr and lg
+    for pokemon in merged_learnset_collection:
+      merged_learnset_collection[pokemon] = list({json.dumps(move): move for move in merged_learnset_collection[pokemon]}.values())
+
   dist_learnset_collection = []
   for pokemon, moves in merged_learnset_collection.items():
     dist_learnset_collection.append({
