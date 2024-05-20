@@ -56,8 +56,17 @@ def read_learnset_data(learnset_filepath: str):
   with open(learnset_filepath, encoding='UTF-8') as file:
     lines = file.readlines()
   entries = map(LearnsetEntry, lines)
-  entries = list(filter(lambda entry: entry.is_valid, entries))
   return entries
+
+def read_availability(availability_file_path: str):
+  availability_collection = []
+  if os.path.isfile(availability_file_path):
+    with open(availability_file_path, encoding='UTF-8') as availability_file:
+      for line in availability_file:
+        pid = PokemonId(line.rstrip())
+        if pid.number > 0:
+          availability_collection.append(pid)
+  return availability_collection
 
 def find_pre_evolution(pokemon: PokemonId):
   for key, value in evolution_data.items():
@@ -198,10 +207,15 @@ output_method_keys : list[str] = []
 for game_key, filenames in index_data.items():
   start_time = time.time()
   raw_learnset_collection: dict[str, list[LearnsetEntry]] = {}
+  availability_collection = read_availability(os.path.join(raw_folder, filenames[0].split('/')[0], 'availabilities.txt'))
   for file_key in filenames:
     filepath = os.path.join(raw_folder, file_key + '.txt')
     method_key : str = file_key.split('/')[1]
-    raw_learnset_collection[file_key] = read_learnset_data(filepath)
+    learnset_table = read_learnset_data(filepath)
+    learnset_table = list(filter(lambda entry: entry.is_valid, learnset_table))
+    if len(availability_collection) > 0:
+      learnset_table = list(filter(lambda entry: entry.pokemon in availability_collection, learnset_table))
+    raw_learnset_collection[file_key] = learnset_table
     if not(method_key in input_method_keys):
       input_method_keys.append(method_key)
   merged_learnset_collection = merge_learnsets(raw_learnset_collection)
@@ -215,7 +229,7 @@ for game_key, filenames in index_data.items():
       'form': pokemon.form,
       'moves': moves,
     })
-
+  
   dist_text = json.dumps(dist_learnset_collection, indent=2)
   dist_filepath = os.path.join(dest_folder, game_key + '.json')
   if not os.path.exists(dest_folder):
@@ -225,11 +239,12 @@ for game_key, filenames in index_data.items():
 
   end_time = time.time()
   elapsed_time = end_time - start_time
-  print(f'::group::Generated "{dist_filepath}" in {elapsed_time * 1000:.0f}ms.')
+  entry_count = len(dist_learnset_collection)
+  pokemon_numbers = list(map(lambda x: x['pokemon'], dist_learnset_collection))
+  pokemon_count = len(set(pokemon_numbers))
+  pokemon_max = max(pokemon_numbers)
+  print(f'::group::Generated "{dist_filepath}": {pokemon_count}/{pokemon_max} pokemon, {entry_count} entries, {elapsed_time * 1000:.0f}ms.')
   for file_key in filenames:
     filepath = os.path.join(raw_folder, file_key + '.txt')
     print(f' {filepath}')
   print('::endgroup::')
-
-print(f'Input methods: {input_method_keys}.')
-print(f'Output methods: {output_method_keys}.')
