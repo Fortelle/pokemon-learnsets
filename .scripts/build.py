@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-import os
 import json
+import os
+import re
 import time
 
 ################
@@ -27,7 +28,7 @@ class PokemonId:
   def __hash__(self):
     return hash((self.number, self.form))
   def __repr__(self):
-    return f'{self.number:03}.{self.form:02}'
+    return f'{self.number:04}-{self.form:03}'
 
 class MoveEntry:
   def __init__(self, text: str):
@@ -74,36 +75,29 @@ def find_pre_evolutions(pokemon: PokemonId):
   return pre_evolutions
 
 def create_move_object(method: str, entry: MoveEntry):
-  move_object = {}
+  move_object = {
+    'move': entry.index,
+    'method': method,
+  }
   match method:
     case 'basic':
-      move_object['move'] = entry.index
       move_object['method'] = 'levelup'
       move_object['level'] = 1
     case 'levelup':
-      move_object['move'] = entry.index
       level = int(entry.value)
       if (level <= 0): # evolution moves, 0 in sm-la, -3 in sv
         move_object['method'] = 'evolution'
       else:
-        move_object['method'] = method
         move_object['level'] = level
       if (hasattr(entry, 'value2')): # master moves in la
         move_object['master_level'] = int(entry.value2)
     case 'tm' | 'tr':
-      move_object['move'] = entry.index
-      move_object['method'] = method
-      move_object['item'] = entry.value
+      if (hasattr(entry, 'value')):
+        move_object['item'] = entry.value
     case 'tutor_ult':
-      move_object['move'] = entry.index
       move_object['method'] = 'tutor'
     case 'zmove':
-      move_object['move'] = entry.index
-      move_object['method'] = method
       move_object['original_move'] = entry.value
-    case _:
-      move_object['move'] = entry.index
-      move_object['method'] = method
   return move_object
 
 def merge_learnsets(collection: dict[str, list[LearnsetEntry]]):
@@ -117,13 +111,21 @@ def merge_learnsets(collection: dict[str, list[LearnsetEntry]]):
       pokemon_collection[key] = []
 
   for file_key, learnset in collection.items():
-    method_key = file_key.split('/')[1]
+    m = re.match('^(.+?)(?:@(.+?)){0,1}/(.+?)$', file_key)
+    game_key = m.group(1)
+    version = m.group(2)
+    method_key = m.group(3)
     for entry in learnset:
+      templist = []
       for move in entry.moves:
         move_object = create_move_object(method_key, move)
-        pokemon_collection[entry.pokemon].append(move_object)
+        templist.append(move_object)
         if not(move_object['method'] in output_method_keys):
           output_method_keys.append(move_object['method'])
+      if game_key == 'scarletviolet' and method_key == 'tm': # remove unused tm and sort
+        templist = list(filter(lambda move_object: 'item' in move_object, templist))
+        templist.sort(key = lambda move_object: move_object['item'])
+      pokemon_collection[entry.pokemon].extend(templist)
   
   return pokemon_collection
 
