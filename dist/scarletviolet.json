@@ -185974,6 +185974,14 @@
         "item": "TM226"
       },
       {
+        "move": 549,
+        "method": "special"
+      },
+      {
+        "move": 184,
+        "method": "special"
+      },
+      {
         "move": 558,
         "method": "levelup",
         "level": 48,
@@ -186358,6 +186366,14 @@
         "item": "TM226"
       },
       {
+        "move": 554,
+        "method": "special"
+      },
+      {
+        "move": 558,
+        "method": "special"
+      },
+      {
         "move": 549,
         "method": "levelup",
         "level": 80,
@@ -186733,6 +186749,14 @@
         "move": 913,
         "method": "tm",
         "item": "TM226"
+      },
+      {
+        "move": 553,
+        "method": "special"
+      },
+      {
+        "move": 559,
+        "method": "special"
       },
       {
         "move": 549,
@@ -237133,6 +237157,10 @@
         "move": 800,
         "method": "tm",
         "item": "TM220"
+      },
+      {
+        "move": 713,
+        "method": "special"
       }
     ]
   },
@@ -237509,6 +237537,10 @@
         "move": 800,
         "method": "tm",
         "item": "TM220"
+      },
+      {
+        "move": 714,
+        "method": "special"
       }
     ]
   },
@@ -257707,6 +257739,10 @@
         "move": 669,
         "method": "tm",
         "item": "TM190"
+      },
+      {
+        "move": 442,
+        "method": "special"
       }
     ]
   },
@@ -257998,6 +258034,10 @@
         "move": 669,
         "method": "tm",
         "item": "TM190"
+      },
+      {
+        "move": 781,
+        "method": "special"
       }
     ]
   },
@@ -258309,6 +258349,10 @@
         "move": 811,
         "method": "tm",
         "item": "TM213"
+      },
+      {
+        "move": 442,
+        "method": "special"
       }
     ]
   },
@@ -258620,6 +258664,10 @@
         "move": 811,
         "method": "tm",
         "item": "TM213"
+      },
+      {
+        "move": 782,
+        "method": "special"
       }
     ]
   },
@@ -262452,6 +262500,10 @@
         "move": 174,
         "method": "tm",
         "item": "TM224"
+      },
+      {
+        "move": 824,
+        "method": "special"
       }
     ]
   },
@@ -262953,6 +263005,10 @@
         "move": 174,
         "method": "tm",
         "item": "TM224"
+      },
+      {
+        "move": 825,
+        "method": "special"
       }
     ]
   },
