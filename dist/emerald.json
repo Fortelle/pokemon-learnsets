@@ -5475,6 +5475,12 @@
         "method": "egg",
         "pokemon": 172,
         "form": 0
+      },
+      {
+        "move": 344,
+        "method": "special",
+        "pokemon": 172,
+        "form": 0
       }
     ]
   },
@@ -5772,6 +5778,12 @@
       {
         "move": 268,
         "method": "egg",
+        "pokemon": 172,
+        "form": 0
+      },
+      {
+        "move": 344,
+        "method": "special",
         "pokemon": 172,
         "form": 0
       }
@@ -43924,6 +43936,10 @@
       {
         "move": 111,
         "method": "tutor"
+      },
+      {
+        "move": 344,
+        "method": "special"
       }
     ]
   },
@@ -44731,10 +44747,6 @@
       {
         "move": 111,
         "method": "tutor"
-      },
-      {
-        "move": 344,
-        "method": "special"
       }
     ]
   },
@@ -45053,12 +45065,6 @@
       {
         "move": 248,
         "method": "egg",
-        "pokemon": 175,
-        "form": 0
-      },
-      {
-        "move": 344,
-        "method": "special",
         "pokemon": 175,
         "form": 0
       }

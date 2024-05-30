@@ -11079,13 +11079,6 @@
         "form": 0
       },
       {
-        "move": 658,
-        "method": "zmove",
-        "original_move": "344",
-        "pokemon": 25,
-        "form": 0
-      },
-      {
         "move": 344,
         "method": "special",
         "pokemon": 25,
@@ -11205,6 +11198,12 @@
       {
         "move": 604,
         "method": "egg",
+        "pokemon": 172,
+        "form": 0
+      },
+      {
+        "move": 344,
+        "method": "special",
         "pokemon": 172,
         "form": 0
       }
@@ -11492,13 +11491,6 @@
         "form": 0
       },
       {
-        "move": 658,
-        "method": "zmove",
-        "original_move": "344",
-        "pokemon": 25,
-        "form": 0
-      },
-      {
         "move": 344,
         "method": "special",
         "pokemon": 25,
@@ -11618,6 +11610,12 @@
       {
         "move": 604,
         "method": "egg",
+        "pokemon": 172,
+        "form": 0
+      },
+      {
+        "move": 344,
+        "method": "special",
         "pokemon": 172,
         "form": 0
       }
@@ -52630,13 +52628,6 @@
         "method": "egg",
         "pokemon": 133,
         "form": 0
-      },
-      {
-        "move": 702,
-        "method": "zmove",
-        "original_move": "387",
-        "pokemon": 133,
-        "form": 0
       }
     ]
   },
@@ -53021,13 +53012,6 @@
         "method": "egg",
         "pokemon": 133,
         "form": 0
-      },
-      {
-        "move": 702,
-        "method": "zmove",
-        "original_move": "387",
-        "pokemon": 133,
-        "form": 0
       }
     ]
   },
@@ -53393,13 +53377,6 @@
       {
         "move": 445,
         "method": "egg",
-        "pokemon": 133,
-        "form": 0
-      },
-      {
-        "move": 702,
-        "method": "zmove",
-        "original_move": "387",
         "pokemon": 133,
         "form": 0
       }
@@ -65794,6 +65771,10 @@
       {
         "move": 604,
         "method": "egg"
+      },
+      {
+        "move": 344,
+        "method": "special"
       }
     ]
   },
@@ -66593,10 +66574,6 @@
       {
         "move": 234,
         "method": "egg"
-      },
-      {
-        "move": 344,
-        "method": "special"
       }
     ]
   },
@@ -66973,12 +66950,6 @@
       {
         "move": 234,
         "method": "egg",
-        "pokemon": 175,
-        "form": 0
-      },
-      {
-        "move": 344,
-        "method": "special",
         "pokemon": 175,
         "form": 0
       }
@@ -73756,13 +73727,6 @@
         "method": "egg",
         "pokemon": 133,
         "form": 0
-      },
-      {
-        "move": 702,
-        "method": "zmove",
-        "original_move": "387",
-        "pokemon": 133,
-        "form": 0
       }
     ]
   },
@@ -74145,13 +74109,6 @@
       {
         "move": 445,
         "method": "egg",
-        "pokemon": 133,
-        "form": 0
-      },
-      {
-        "move": 702,
-        "method": "zmove",
-        "original_move": "387",
         "pokemon": 133,
         "form": 0
       }
@@ -169398,12 +169355,6 @@
         "method": "egg",
         "pokemon": 175,
         "form": 0
-      },
-      {
-        "move": 344,
-        "method": "special",
-        "pokemon": 175,
-        "form": 0
       }
     ]
   },
@@ -170100,13 +170051,6 @@
         "method": "egg",
         "pokemon": 133,
         "form": 0
-      },
-      {
-        "move": 702,
-        "method": "zmove",
-        "original_move": "387",
-        "pokemon": 133,
-        "form": 0
       }
     ]
   },
@@ -170472,13 +170416,6 @@
       {
         "move": 445,
         "method": "egg",
-        "pokemon": 133,
-        "form": 0
-      },
-      {
-        "move": 702,
-        "method": "zmove",
-        "original_move": "387",
         "pokemon": 133,
         "form": 0
       }
@@ -226948,34 +226885,6 @@
       {
         "move": 549,
         "method": "special"
-      },
-      {
-        "move": 558,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 1
-      },
-      {
-        "move": 554,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 1
-      },
-      {
-        "move": 559,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 2
-      },
-      {
-        "move": 553,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 2
       }
     ]
   },
@@ -227269,34 +227178,6 @@
       {
         "move": 554,
         "method": "special"
-      },
-      {
-        "move": 184,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 0
-      },
-      {
-        "move": 549,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 0
-      },
-      {
-        "move": 559,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 2
-      },
-      {
-        "move": 553,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 2
       }
     ]
   },
@@ -227590,34 +227471,6 @@
       {
         "move": 553,
         "method": "special"
-      },
-      {
-        "move": 184,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 0
-      },
-      {
-        "move": 549,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 0
-      },
-      {
-        "move": 558,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 1
-      },
-      {
-        "move": 554,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 1
       }
     ]
   },
@@ -247687,13 +247540,6 @@
       {
         "move": 445,
         "method": "egg",
-        "pokemon": 133,
-        "form": 0
-      },
-      {
-        "move": 702,
-        "method": "zmove",
-        "original_move": "387",
         "pokemon": 133,
         "form": 0
       }

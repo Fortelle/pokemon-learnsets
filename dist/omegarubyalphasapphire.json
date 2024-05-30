@@ -9868,6 +9868,12 @@
         "method": "egg",
         "pokemon": 172,
         "form": 0
+      },
+      {
+        "move": 344,
+        "method": "special",
+        "pokemon": 172,
+        "form": 0
       }
     ]
   },
@@ -12103,6 +12109,12 @@
       {
         "move": 574,
         "method": "egg",
+        "pokemon": 172,
+        "form": 0
+      },
+      {
+        "move": 344,
+        "method": "special",
         "pokemon": 172,
         "form": 0
       }
@@ -70363,6 +70375,10 @@
       {
         "move": 574,
         "method": "egg"
+      },
+      {
+        "move": 344,
+        "method": "special"
       }
     ]
   },
@@ -71423,10 +71439,6 @@
       {
         "move": 234,
         "method": "egg"
-      },
-      {
-        "move": 344,
-        "method": "special"
       }
     ]
   },
@@ -71894,12 +71906,6 @@
       {
         "move": 234,
         "method": "egg",
-        "pokemon": 175,
-        "form": 0
-      },
-      {
-        "move": 344,
-        "method": "special",
         "pokemon": 175,
         "form": 0
       }
@@ -194238,12 +194244,6 @@
         "method": "egg",
         "pokemon": 175,
         "form": 0
-      },
-      {
-        "move": 344,
-        "method": "special",
-        "pokemon": 175,
-        "form": 0
       }
     ]
   },
@@ -262896,34 +262896,6 @@
       {
         "move": 184,
         "method": "special"
-      },
-      {
-        "move": 558,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 1
-      },
-      {
-        "move": 554,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 1
-      },
-      {
-        "move": 559,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 2
-      },
-      {
-        "move": 553,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 2
       }
     ]
   },
@@ -263285,34 +263257,6 @@
       {
         "move": 558,
         "method": "special"
-      },
-      {
-        "move": 184,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 0
-      },
-      {
-        "move": 549,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 0
-      },
-      {
-        "move": 559,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 2
-      },
-      {
-        "move": 553,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 2
       }
     ]
   },
@@ -263674,34 +263618,6 @@
       {
         "move": 559,
         "method": "special"
-      },
-      {
-        "move": 184,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 0
-      },
-      {
-        "move": 549,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 0
-      },
-      {
-        "move": 558,
-        "method": "levelup",
-        "level": 43,
-        "pokemon": 646,
-        "form": 1
-      },
-      {
-        "move": 554,
-        "method": "levelup",
-        "level": 50,
-        "pokemon": 646,
-        "form": 1
       }
     ]
   },
