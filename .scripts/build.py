@@ -146,6 +146,8 @@ def apply_pre_evolutions(collection: dict[PokemonId, list[object]]):
       if not(pre_evolution in collection):
         continue
       for pre_move in collection[pre_evolution]:
+        if pre_move['method'] == 'zmove':
+          continue
         if any(x['move'] == pre_move['move'] for x in moves):
           continue
         new_move = pre_move.copy()
@@ -155,7 +157,7 @@ def apply_pre_evolutions(collection: dict[PokemonId, list[object]]):
     new_collection[pokemon] = new_moves
   return new_collection
 
-def apply_form_changes(collection: dict[PokemonId, list[object]]):
+def apply_form_changes(collection: dict[PokemonId, list[object]], specials: list[LearnsetEntry]):
   new_collection: dict[PokemonId, list[object]] = {}
   for pokemon, moves in collection.items():
     new_collection[pokemon] = moves.copy()
@@ -171,6 +173,8 @@ def apply_form_changes(collection: dict[PokemonId, list[object]]):
           continue
         for form_move in collection[other_form]:
           if form_move['method'] == 'special':
+            continue
+          if form_move['method'] == 'levelup' and specials is not None and any(((x.pokemon == other_form) and any((form_move['move'] == y.index) for y in x.moves)) for x in specials):
             continue
           if any(x['move'] == form_move['move'] for x in collection[target_form]):
             continue
@@ -208,6 +212,7 @@ for game_key, filenames in index_data.items():
   start_time = time.time()
   raw_learnset_collection: dict[str, list[LearnsetEntry]] = {}
   availability_collection = read_availability(os.path.join(raw_folder, filenames[0].split('/')[0], 'availabilities.txt'))
+  special_moves : list[LearnsetEntry] = None
   for file_key in filenames:
     filepath = os.path.join(raw_folder, file_key + '.txt')
     method_key : str = file_key.split('/')[1]
@@ -218,9 +223,10 @@ for game_key, filenames in index_data.items():
     raw_learnset_collection[file_key] = learnset_table
     if not(method_key in input_method_keys):
       input_method_keys.append(method_key)
+    if method_key == 'special' : special_moves = learnset_table
   merged_learnset_collection = merge_learnsets(raw_learnset_collection)
   merged_learnset_collection = apply_pre_evolutions(merged_learnset_collection)
-  merged_learnset_collection = apply_form_changes(merged_learnset_collection)
+  merged_learnset_collection = apply_form_changes(merged_learnset_collection, special_moves)
   
   if game_key == "fireredleafgreen": # ugly hack, merge fr and lg
     for pokemon in merged_learnset_collection:
