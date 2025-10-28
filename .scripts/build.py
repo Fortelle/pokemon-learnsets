@@ -98,7 +98,7 @@ def create_move_object(method: str, entry: MoveEntry):
         move_object['method'] = 'evolution'
       else:
         move_object['level'] = level
-      if (hasattr(entry, 'value2')): # master moves in la
+      if (hasattr(entry, 'value2')): # master moves in la/lza
         move_object['master_level'] = int(entry.value2)
     case 'tm' | 'tr':
       if (hasattr(entry, 'value')):
@@ -107,6 +107,8 @@ def create_move_object(method: str, entry: MoveEntry):
       move_object['method'] = 'tutor'
     case 'zmove':
       move_object['original_move'] = entry.value
+    case 'oyabun': # alpha pokemon special moves in lza
+      move_object['method'] = 'oyabun'
   return move_object
 
 def merge_learnsets(collection: dict[str, list[LearnsetEntry]]):

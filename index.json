@@ -166,5 +166,12 @@
         "scarletviolet@3.0.0/tm",
         "scarletviolet@3.0.0/egg",
         "scarletviolet@3.0.0/special"
+    ],
+
+    "legendsza" : [
+        "legendsza@1.0.0/levelup",
+        "legendsza@1.0.0/tm",
+        "legendsza@1.0.0/oyabun",
+        "legendsza@1.0.0/special"
     ]
 }

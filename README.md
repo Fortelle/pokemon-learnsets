@@ -34,3 +34,4 @@ A collection of Pokemon learnsets from all of the core series games.
 | `scarletviolet@1.2.0` | Pokemon Scarlet *(Version 1.2.0) (Walking Wake, Iron Leaves)* | 2023.2.28 | 478/1010
 | `scarletviolet@2.0.1` | Pokemon Scarlet *(Version 2.0.1) (The Teal Mask)* | 2023.9.13 | 587/1017
 | `scarletviolet@3.0.0` | Pokemon Scarlet *(Version 3.0.0) (The Indigo Disk)* | 2023.12.14 | 733/1025
+| `legendsza@1.0.0` | Pokemon Legends: Z-A *(Version 1.0.0)* | 2025.10.16 | 234/1025
