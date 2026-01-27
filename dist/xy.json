@@ -88255,6 +88255,111 @@
         "method": "egg",
         "pokemon": 255,
         "form": 0
+      },
+      {
+        "move": 119,
+        "method": "levelup",
+        "level": 43,
+        "pokemon": 256,
+        "form": 0
+      },
+      {
+        "move": 83,
+        "method": "levelup",
+        "level": 25,
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 119,
+        "method": "levelup",
+        "level": 37,
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 68,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 179,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 203,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 265,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 306,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 226,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 97,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 400,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 387,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 364,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 297,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 174,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 481,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 67,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
       }
     ]
   },

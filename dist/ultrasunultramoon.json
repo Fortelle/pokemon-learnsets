@@ -106800,6 +106800,78 @@
         "method": "egg",
         "pokemon": 252,
         "form": 0
+      },
+      {
+        "move": 242,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 300,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 73,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 225,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 306,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 24,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 320,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 345,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 13,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 331,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 363,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
+      },
+      {
+        "move": 580,
+        "method": "egg",
+        "pokemon": 252,
+        "form": 0
       }
     ]
   },
@@ -108444,6 +108516,106 @@
         "method": "egg",
         "pokemon": 255,
         "form": 0
+      },
+      {
+        "move": 119,
+        "method": "levelup",
+        "level": 47,
+        "pokemon": 256,
+        "form": 0
+      },
+      {
+        "move": 83,
+        "method": "levelup",
+        "level": 19,
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 481,
+        "method": "levelup",
+        "level": 28,
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 119,
+        "method": "levelup",
+        "level": 41,
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 68,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 179,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 203,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 265,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 306,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 226,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 97,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 400,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 364,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 297,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 174,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
+      },
+      {
+        "move": 481,
+        "method": "egg",
+        "pokemon": 255,
+        "form": 0
       }
     ]
   },
@@ -109963,6 +110135,124 @@
       {
         "move": 308,
         "method": "tutor"
+      },
+      {
+        "move": 300,
+        "method": "levelup",
+        "level": 20,
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 88,
+        "method": "levelup",
+        "level": 25,
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 250,
+        "method": "levelup",
+        "level": 33,
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 56,
+        "method": "levelup",
+        "level": 41,
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 287,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 174,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 23,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 301,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 243,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 68,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 246,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 250,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 44,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 38,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 281,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 124,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 419,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 469,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
+      },
+      {
+        "move": 112,
+        "method": "egg",
+        "pokemon": 258,
+        "form": 0
       },
       {
         "move": 300,
