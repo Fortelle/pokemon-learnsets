@@ -169,9 +169,9 @@
     ],
 
     "legendsza" : [
-        "legendsza@1.0.0/levelup",
-        "legendsza@1.0.0/tm",
-        "legendsza@1.0.0/oyabun",
-        "legendsza@1.0.0/special"
+        "legendsza@2.0.0/levelup",
+        "legendsza@2.0.0/tm",
+        "legendsza@2.0.0/oyabun",
+        "legendsza@2.0.0/special"
     ]
 }
